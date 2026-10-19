@@ -1,0 +1,68 @@
+.dashboardview {
+    background: #f4f6f9;
+
+    .dashboard-toolbar {
+        background: transparent;
+        margin-bottom: 8px;
+    }
+
+    .kpi-tile {
+        background: #ffffff;
+        border-radius: 8px;
+        border-left: 4px solid $base-color;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        margin-right: 16px;
+        padding: 16px;
+
+        &:last-child { margin-right: 0; }
+    }
+
+    .kpi-label {
+        color: #6b7280;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .kpi-value {
+        font-size: 26px;
+        font-weight: 600;
+        margin-top: 6px;
+
+        small { font-size: 13px; font-weight: 400; color: #6b7280; }
+    }
+
+    .kpi-sub { color: #6b7280; font-size: 12px; margin-top: 4px; }
+    .kpi-long { color: #15803d; }
+    .kpi-short { color: #b91c1c; }
+
+    .dashboard-panel {
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .bar-row {
+        display: flex;
+        align-items: center;
+        padding: 10px 16px;
+    }
+
+    .bar-label { width: 120px; font-weight: 500; }
+
+    .bar-track {
+        flex: 1;
+        height: 14px;
+        background: #e5e7eb;
+        border-radius: 7px;
+        margin: 0 12px;
+        overflow: hidden;
+    }
+
+    .bar-fill {
+        height: 100%;
+        background: $base-color;
+        border-radius: 7px;
+    }
+
+    .bar-value { width: 110px; text-align: right; color: #374151; }
+}

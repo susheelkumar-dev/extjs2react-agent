@@ -1,0 +1,15 @@
+[project]
+name = "tradeblotter-mock-api"
+version = "1.0.0"
+description = "Mock ETRM API for the Ext JS to React migration sample"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "httpx>=0.27",
+]

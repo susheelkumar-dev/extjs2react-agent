@@ -1,0 +1,20 @@
+.counterpartiesview {
+    .counterparty-detail {
+        border-left: 1px solid #e5e7eb;
+    }
+
+    .empty-detail {
+        color: #6b7280;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .utilisation-label {
+        font-weight: 600;
+        margin: 16px 0 8px;
+    }
+
+    .util-ok .x-progress-bar { background-color: #16a34a; }
+    .util-warning .x-progress-bar { background-color: #d97706; }
+    .util-critical .x-progress-bar { background-color: #dc2626; }
+}

@@ -1,0 +1,9 @@
+{
+  "leaf": false,
+  "children": [
+    { "text": "Dashboard", "iconCls": "x-fa fa-th-large", "xtype": "dashboardview", "leaf": true },
+    { "text": "Trades", "iconCls": "x-fa fa-table", "xtype": "tradesview", "leaf": true },
+    { "text": "Counterparties", "iconCls": "x-fa fa-users", "xtype": "counterpartiesview", "leaf": true },
+    { "text": "About", "iconCls": "x-fa fa-info-circle", "xtype": "homeview", "leaf": true }
+  ]
+}
